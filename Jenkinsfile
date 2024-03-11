@@ -30,20 +30,20 @@ pipeline {
             }
         }
 
-        stage('Deploy') {
-            steps {
-                // Deploy the application (e.g., to a server or container)
-                // This step depends on your deployment strategy
-            }
-        }
+//         stage('Deploy') {
+//             steps {
+//                 // Deploy the application (e.g., to a server or container)
+//                 // This step depends on your deployment strategy
+//             }
+//         }
     }
 
-    post {
-        success {
-            // Do something if the pipeline succeeds
-        }
-        failure {
-            // Do something if the pipeline fails
-        }
-    }
+//     post {
+//         success {
+//             // Do something if the pipeline succeeds
+//         }
+//         failure {
+//             // Do something if the pipeline fails
+//         }
+//     }
 }
