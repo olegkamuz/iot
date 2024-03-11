@@ -38,12 +38,13 @@ pipeline {
 //         }
     }
 
-//     post {
-//         success {
+    post {
+        success {
+            archiveArtifacts 'target/*.jar'
 //             // Do something if the pipeline succeeds
-//         }
+        }
 //         failure {
 //             // Do something if the pipeline fails
 //         }
-//     }
+    }
 }
