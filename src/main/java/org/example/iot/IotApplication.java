@@ -10,4 +10,5 @@ public class IotApplication {
         SpringApplication.run(IotApplication.class, args);
     }
 
+
 }
