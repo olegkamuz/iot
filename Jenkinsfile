@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the source code from your version control system
-                git 'https://github.com/olegkamuz/iot'
+                git 'https://github.com/olegkamuz/Spring-DI-Container'
             }
         }
 
